@@ -1,0 +1,174 @@
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px 64px 0 64px;
+}
+
+.left-box {
+  display: flex;
+  justify-content: start;
+}
+
+.right-box {
+  display: flex;
+  justify-content: end;
+}
+/* .button {
+} */
+
+.button {
+  margin-top: 16px;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+
+.menu {
+  color: #454b57;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+.button-menu {
+  margin-right: 8px;
+  vertical-align: middle;
+  fill: #454b57;
+}
+
+.nav-bar {
+  position: absolute;
+  left: 64px;
+  top: 55px;
+  display: none;
+  background: #454b57;
+  border-radius: 10px;
+  padding: 12px 20px 12px 0;
+}
+
+.nav-li-a {
+  color: white;
+  font-size: 18px;
+  box-shadow: 0 12px 17px 0 rgba(39, 42, 55, 0.14);
+  padding: 5px;
+}
+
+.nav-li {
+  padding: 0 0 0 20px;
+}
+
+.nav-li:hover {
+  border-left: 7px #fec900 solid;
+  color: #fec900;
+}
+
+.button:hover .nav-bar {
+  display: block;
+}
+
+/* .old-version {
+} */
+.old-version {
+  margin-top: 16px;
+  vertical-align: middle;
+}
+
+.old-version a {
+  color: blue;
+}
+
+/* button-enter */
+.button-enter {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  color: #454b57;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+.enter {
+  margin-right: 8px;
+  vertical-align: middle;
+  fill: #454b57;
+}
+
+/* button-plus */
+.button-plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  margin-right: 30px;
+  padding: 0 16px 0 12px;
+  letter-spacing: 0.8px;
+  border-radius: 8px;
+  border: 2px #fec900 solid;
+}
+
+.button-plus a {
+  display: flex;
+  align-items: center;
+  color: #454b57;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  width: 26px;
+  height: 26px;
+  background-color: #fec900;
+  border-radius: 50%;
+}
+
+.icon-plus {
+  width: 10px;
+  height: 10px;
+  fill: white;
+}
+
+/* button-language */
+.button-language {
+  vertical-align: middle;
+  margin-top: 16px;
+}
+
+.button-language span {
+  height: 26px;
+  color: #454b57;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button-language li {
+  padding-top: 10px;
+}
+
+.ul-language {
+  position: absolute;
+  right: 40px;
+  top: 55px;
+  display: none;
+  padding: 16px;
+  background: gray;
+  border-radius: 10px;
+}
+
+.ul-a {
+  color: white;
+  letter-spacing: 0.8px;
+}
+
+.ul-a:hover {
+  color: #fec900;
+}
+
+.button-language:hover .ul-language {
+  display: block;
+}
