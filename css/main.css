@@ -4,6 +4,7 @@ header {
   justify-content: space-between;
   height: 60px;
   padding: 10px 64px 0 64px;
+  margin-bottom: 50px;
 }
 
 .left-box {
@@ -45,6 +46,7 @@ header {
   background: #454b57;
   border-radius: 10px;
   padding: 12px 20px 12px 0;
+  z-index: 10;
 }
 
 .nav-li-a {
@@ -171,4 +173,43 @@ header {
 
 .button-language:hover .ul-language {
   display: block;
+}
+
+/* container */
+.container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.search-box {
+  width: 80%;
+  border: 3px #fec900 solid;
+  border-radius: 30px;
+  background-color: #fec900;
+}
+
+.search-logo {
+  padding-left: 90px;
+}
+
+.search-txt {
+  height: 50px;
+  width: 100%;
+  padding-left: 20px;
+  border-radius: 30px;
+  border: 1px #fec900 solid;
+}
+
+.my-logo {
+  position: absolute;
+  left: 90px;
+  top: 15px;
+}
+
+/* flex-right-buttons */
+.flex-right-buttons {
+  width: 150px;
 }
